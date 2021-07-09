@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello</h1>
+  <p id="demo"></p>
+  <p id="demo2"></p>
+  <script>
+    
+    var x = myFun1(4,5);
+    document.getElementById('demo').innerHTML = x;
+    x = myFun2(4,5);
+    document.getElementById('demo2').innerHTML = x;
+
+    function myFun1(a,b) {
+      return a*b;
+    }
+    function myFun2(a,b) {
+      return a+b;
+    }
+    
+  </script>
+</body>
+</html>
